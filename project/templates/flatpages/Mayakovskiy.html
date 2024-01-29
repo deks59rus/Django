@@ -1,16 +1,18 @@
 <!DOCTYPE html>
+{% load static %}
 <html lang="en">
 <head>
     <meta charset="UTF-8">
 <head>
 <title>{{ flatpage.title }}</title>
+  <link href="{% static 'css/styles.css'%}" rel="stylesheet" />
 </head>
 <body style="background-color: #F1E0E8; font-size: 25px; font-family:Cuprum; color:#9D121E;">
 <h1>Стихи Александра Маяковского</h1>
 <img src="https://i.pinimg.com/originals/62/56/9a/62569af9dfd7480a2798fda098f74c45.jpg" /><br /><br />
 <details>
   <summary><b>О дряни</b></summary>
-  <pre style="font-family:Brush Script; color:#9D121E; font-size: 25"> Слава, Слава, Слава героям!!!
+  <pre> Слава, Слава, Слава героям!!!
 
 Впрочем,
 им
@@ -91,7 +93,7 @@
 </details>
 <details>
   <summary> <b>А вы смогли бы?</b></summary>
-<pre style="font-family:Cuprum; color:#9D121E; font-size: 25">Я сразу смазал карту будня,
+<pre>Я сразу смазал карту будня,
 плеснувши краску из стакана;
 я показал на блюде студня
 косые скулы океана.
